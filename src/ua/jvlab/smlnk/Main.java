@@ -18,6 +18,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
+        sc.close();
 
         // Get an array of characters from the string;
         char[] c = a.toCharArray();
